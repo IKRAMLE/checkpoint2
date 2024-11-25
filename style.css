@@ -1,8 +1,48 @@
+body{
+    margin: 0px;
+}
+ main{
+    margin: 20px;
+ }
+    
 h1{
-
     text-align: center;
 }
+section nav ul{
 
-.navbar ul{
     list-style-type: none;
+    background-color:#123541;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+section nav a{
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    padding-left: 90px;
+    padding-right: 93.2px;
+    display: block;
+    text-align: center;
+}
+section a:hover {
+    background-color:gray  ;
+}
+section nav li {
+    float: left;
+}
+section img {
+    border-radius: 20000px;
+    border-top-left-radius: 200px;
+    margin-top: 0px;
+    margin-left: 800px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    
+}
+section p {
+    padding-right: 250px;
+    border-image: none;
 }
