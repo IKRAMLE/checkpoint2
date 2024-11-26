@@ -3,61 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First HTMl project</title>
+    <title>Ikram Lechqer's Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-       <section>
-        <h1>IKRAM LECHQER</h1>
-        <!-- name on the top of the portfolio -->
-        <nav>
-            <ul>
-                <!-- navbar about me and my PROJECTS  -->
-                <li><a href="abc">HOME</a></li>
-                <li><a href="aboutme.html">ABOUT ME</a></li>
-                <li><a href="abc">PROJECTS</a></li>
-                <li><a href="https://github.com/IKRAMLE">CONTACTS</a></li>
-            </ul>
-        </nav>
-    </section>
-<section>
-   <img width="200" height="140" src="https://img.freepik.com/photos-gratuite/belle-scene-dessin-anime_23-2151035176.jpg" alt="">
-</section>
+    <header class="header">
+        <section class="header-content">
+            <h1>Ikram Lechqer</h1>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutme.html">ABOUT ME</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="https://github.com/IKRAMLE">CONTACT</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="header-image">
+            <img src="https://img.freepik.com/photos-gratuite/belle-scene-dessin-anime_23-2151035176.jpg" alt="Illustration" />
+        </section>
     </header>
+
     <main>
-        <section>
-             <!-- a into and welcoming in the saame time -->
-        <p><ig>I’m Ikram Lechqer, a passionate Computer Engineer from Morocco. With a focus on web development, I specialize in building dynamic, user-friendly applications using modern technologies like React, Node.js, and more. Take a look at my work and feel free to reach out—I’d love to connect and collaborate!
-        </i></p>
-    </section>
-    <section>
-        <!-- form for users to submit their data  -->
-        <form action="">
-            <label for="name">Name</label>
-            <input type="name">
+        <section class="intro">
+            <p>I’m Ikram Lechqer, a passionate Computer Engineer from Morocco. With a focus on web development, I specialize in building dynamic, user-friendly applications using modern technologies like React, Node.js, and more. Take a look at my work and feel free to reach out—I’d love to connect and collaborate!</p>
+        </section>
 
-            <label for="email">Email</label>
-            <input type="email">
+        <section class="form-container">
+            <h2>Get in Touch</h2>
+            <form action="#" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
 
-            <label for="phone">Phone Number</label>
-            <input type="phone">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
 
-            <label for="message">Message</label>
-            <input type="message">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
 
-            <label for="submit"></label>
-            <input type="submit">
- 
-        </form>
-    </section>
-    <section>
-        <!-- video of my previous work -->
-        <video controls width="200" height="140" src="What is HTML_.mp4"></video>
-    </section>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <section class="video-section">
+            <h2>My Previous Work</h2>
+            <video controls width="600" src="What is HTML_.mp4"></video>
+        </section>
     </main>
-    <footer> 
-        <br> &copy; IKRAM LECHQER'S PORTFOLIO 2024
+
+    <footer class="footer">
+        <p>&copy; 2024 Ikram Lechqer's Portfolio</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
