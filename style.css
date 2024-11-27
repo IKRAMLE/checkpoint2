@@ -6,8 +6,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #6a11cb, #2575fc);
+    font-family: 'roboto', sans-serif;
+    background: linear-gradient(to right, #54119c, #0943a6);
     color: #fff;
 }
 
@@ -25,7 +25,6 @@ body {
     font-size: 3em;
     margin-bottom: 20px;
     color: #fff;
-    animation: fadeIn 2s ease-in-out;
 }
 
 .navbar {
@@ -47,10 +46,10 @@ body {
 
 .header-image img {
     max-width: 100%;
+    margin-top: 15px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    animation: zoomIn 2s ease-in-out;
 }
 
 /* Main Content */
@@ -60,10 +59,9 @@ main {
 }
 
 .intro p {
-    font-size: 1.2em;
+    font-size: 20px;
     margin-bottom: 30px;
     line-height: 1.6;
-    animation: fadeIn 3s ease-in-out;
 }
 
 .form-container {
@@ -72,12 +70,11 @@ main {
     border-radius: 8px;
     width: 80%;
     margin: 0 auto;
-    animation: slideUp 2s ease-in-out;
 }
 
 .form-container h2 {
     margin-bottom: 20px;
-    color: #ff6347;
+    color: #18beec;
 }
 
 form label {
@@ -95,7 +92,7 @@ form textarea {
 }
 
 form input[type="submit"] {
-    background-color: #ff6347;
+    background-color: #1ecae4;
     color: white;
     border: none;
     padding: 10px;
@@ -104,7 +101,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-    background-color: #ff4500;
+    background-color: #d3d0b3;
 }
 
 /* Video Section */
@@ -113,12 +110,11 @@ form input[type="submit"]:hover {
     background-color: #444;
     padding: 20px;
     border-radius: 8px;
-    animation: slideUp 2s ease-in-out;
 }
 
 .video-section h2 {
     margin-bottom: 20px;
-    color: #ff6347;
+    color: #48befe;
 }
 
 /* Footer */
